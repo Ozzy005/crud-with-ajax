@@ -1,0 +1,20 @@
+Autor: RAFAEL AREND
+Telefone: 66 9 96040978
+Email: rafinhaarend123@hotmail.com
+
+Instruções para criar o banco de dados
+
+CREATE DATABASE teste_vaga;
+CREATE TABLE users(
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    birth DATE NOT NULL,
+    cpf VARCHAR(11) NOT NULL,
+    phone VARCHAR(11) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    address VARCHAR(50) NOT NULL,
+    city VARCHAR(50) NOT NULL,
+    country VARCHAR(50) NOT NULL,
+    obs VARCHAR(300) NOT NULL,
+    PRIMARY KEY (id)
+);
